@@ -1,0 +1,114 @@
+Data structure used:
+    receipt structure
+    noOfPerson = Enter the number of persons
+    noOfAdults
+    noOfChildren
+    noOfSenior
+    cover_charges
+    ticket_charges
+    showType = Select Show Type (Musical or Theatrical)
+    showTime = Select Show Time (Matinee(12-4 p.m.) or Evening(6-9 p.m.))
+    discountPrice
+    numOfNonAlcBev
+    numOfAlcBev
+    numOfCandyItem
+    snack_charges
+    tier_type
+    istip(True/False)
+    tip_amt
+    valparking_charge
+    total_charges
+
+PART 1:
+calculate cover charges (cal_cvr_charge)
+    Input: Empty receipt structure
+    1. Start
+    2. Prompt user to enter noOfAdults, noOfChildren, noOfSenior
+    3. Store value to receipt -> noOfAdults, receipt -> noOfChildren, receipt -> noOfSenior
+    4. receipt -> cover_charges = (4.00 * receipt -> noOfAdults) + (0.75 * receipt -> noOfChildren) + (1.50 * receipt -> noOfSenior)
+    5. Output: updated receipt structure
+    6. End
+
+PART 2:
+calculate ticket charges (cal_tkt_price)
+    Input: receipt structure
+    1. Start
+    2. Prompt user to enter noOfAdults, noOfChildren, noOfSenior, showTime, showType
+    3. Store value to receipt -> noOfAdults, receipt -> noOfChildren, receipt -> noOfSenior, receipt -> showTime, receipt -> showType
+    4. If showType is Musical Feature,
+        4.1 If showTime is between 12pm and 4pm
+            4.1.1 receipt -> ticket_charges = (70.00 * receipt -> noOfAdults) + (70.00 * receipt -> noOfChildren) + (70.00 * receipt -> noOfSenior)
+        4.2. Else if showTime is between 6pm and 9pm
+            4.2.1 receipt -> ticket_charges = (150.00 * receipt -> noOfAdults) + (150.00 * receipt -> noOfChildren) + (150.00 * receipt -> noOfSenior)
+    5. Else if showType is Theatre Feature,
+        5.1 If showTime is between 12pm and 4pm
+            5.1.1 receipt -> ticket_charges = (55.00 * receipt -> noOfAdults) + (55.00 * receipt -> noOfChildren) + (55.00 * receipt -> noOfSenior)
+        5.2. Else if showTime is between 6pm and 9pm
+            5.2.1 receipt -> ticket_charges = (115.00 * receipt -> noOfAdults) + (115.00 * receipt -> noOfChildren) + (115 .00 * receipt -> noOfSenior)
+    6. Output: updated receipt structure
+    7. End
+
+PART 3:
+Calculate Discount(cal_Discnt)
+Input: receipt structure
+1.start
+2.if Receipt->noOfPerson > 1 :
+	if Receipt->noOfPerson == 2 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.05)
+	else if Receipt->noOfPerson == 3 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.15)
+	else if Receipt->noOfPerson == 4 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.2)
+	else: (Receipt->noOfPerson >= 5)
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.3)
+3.Update receipt structure
+
+PART 4:
+calculate Snack charges(cal_snk_chrg)
+Input: receipt structure
+1.start
+2.prompt user to enter number of Non-alcoholic beverage, alcoholic beverage and candy items
+3.Store values in receipt->numOfNonAlcBev, receipt->numOfAlcBev, receipt->numOfCandyItem
+4.determine Receipt->snack_charges = (receipt->numOfNonAlcBev * 2.25) + (receipt->numOfAlcBev * 7.50) + (receipt->numOfCandyItem * 1.75)
+5.update receipt structure
+
+PART 5:
+Calculate Valet Parking Charges(cal_val_price):
+Input: receipt structure
+1.Start
+2.prompt user to enter Receipt->tier_type
+3.store values to Receipt->tier_type
+4.Prompt user to enter if they want to provide tip
+5.store value to Receipt->istip(True/False)
+6.If ans is true
+	a)set Receipt->istip(True/False) to True
+	b)store the value to Receipt->tip_amt
+7.If Receipt->showTime is Matinée and Receipt->tier_type is Standard
+	a)Reciept ->valparking_charge= $10.00
+8.If Receipt->showTime is Matinée and Receipt->tier_type is VIP
+	a)Reciept ->valparking_charge= $15.00
+9.If Receipt->showTime is Evening and Receipt->tier_type is Standard
+	a)Reciept ->valparking_charge= $20.00
+10.If Receipt->showTime is Evening and Receipt->tier_type is VIP
+	a)Reciept ->valparking_charge= $30.00
+11.If Receipt->istip true?
+	a)Reciept ->valparking_charge=Reciept ->valparking_charge + Receipt->tip_amt
+12.Output: updated receipt structure
+
+PART 6:
+Display All Charges in mobile receipt(mob_receipt):
+Input: Receipt structure
+1.Start
+2.Reciept ->total_charges = (Reciept ->cover_charges) + (Reciept ->ticket_charges) + (Reciept ->snack_charges) + (Reciept ->valparking_charge) - (Reciept ->discount) +(Reciept ->taxes)
+3.Output: updated receipt structure
+
+MAIN PROCESS
+1. Set noOfPerson, noOfAdults, noOfChildren, noOfSenior, cover_charges, ticket_charges, showType, showTime, discountPrice, numOfNonAlcBev, numOfAlcBev, numOfCandyItem, snack_charges, tier_type, tip_amt, valparking_charge, total_charges to Zero
+2. Set Receipt->istip to false
+3. update receipt structure = cal_cvr_charge (Empty receipt structure)
+4. update receipt structure = cal_tkt_charge (receipt structure)
+5. update receipt structure = cal_Discnt (receipt structure)
+6. update receipt structure = cal_snk_chrg (receipt structure)
+7. update receipt structure = cal_val_price (receipt structure)
+8. update receipt structure = mob_receipt (receipt structure)
+9. Print receipt structure

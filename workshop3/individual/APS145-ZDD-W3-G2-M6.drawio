@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T23:44:27.916Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3AYr6HAE5mLBgiCQT5_x" version="21.3.4" type="device">
+  <diagram id="_Mc5Ilf9NkarLMRoA8Cl" name="Page-1">
+    <mxGraphModel dx="1266" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bn1vp2rrl_yx9__dAfIr-2" target="hfjabxKIRl1WXrpb5OLe-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bn1vp2rrl_yx9__dAfIr-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="320" y="20" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-1" target="hfjabxKIRl1WXrpb5OLe-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-1" value="Set current light = Red, and set Red Light timer = 70 sec" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="310" y="130" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-3" target="hfjabxKIRl1WXrpb5OLe-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="133" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-3" target="hfjabxKIRl1WXrpb5OLe-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-3" value="Are there more than 5 cars waiting?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="260" width="181" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-8" target="hfjabxKIRl1WXrpb5OLe-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-8" target="hfjabxKIRl1WXrpb5OLe-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-8" value="Is the Request-To-Walk &lt;br&gt;button pushed/activated?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="214" y="640" width="181" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-12" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-15" target="hfjabxKIRl1WXrpb5OLe-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-15" target="hfjabxKIRl1WXrpb5OLe-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-15" value="Is the wait time for&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;red&amp;nbsp;light more&amp;nbsp;than&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10 seconds?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="427" y="260" width="181" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-17" target="hfjabxKIRl1WXrpb5OLe-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-17" target="hfjabxKIRl1WXrpb5OLe-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-17" value="Is the wait time for &lt;br&gt;red light more&amp;nbsp;than&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10 seconds?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="531" y="640" width="181" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-18" target="hfjabxKIRl1WXrpb5OLe-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="580" />
+              <mxPoint x="305" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-18" value="Don&#39;t reduce/change the wait-time." style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="460" y="483" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfjabxKIRl1WXrpb5OLe-24" target="hfjabxKIRl1WXrpb5OLe-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="630" />
+              <mxPoint x="353" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-24" value="Reduce the wait time of red light to 10 seconds" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="630" y="483" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-28" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="498" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-32" target="hfjabxKIRl1WXrpb5OLe-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-32" value="Reduce the wait time of red light to 10 seconds" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="715" y="960" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="650" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="484" y="433" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-36" target="hfjabxKIRl1WXrpb5OLe-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-36" value="After the timer ends, light will turn Amber and then Green." style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="356" y="960" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-38" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="820" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-40" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="366" y="1090" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="770" y="830" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="hfjabxKIRl1WXrpb5OLe-44" target="hfjabxKIRl1WXrpb5OLe-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-44" value="Don&#39;t reduce/change the wait-time." style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="564" y="860" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfjabxKIRl1WXrpb5OLe-46" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="808" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

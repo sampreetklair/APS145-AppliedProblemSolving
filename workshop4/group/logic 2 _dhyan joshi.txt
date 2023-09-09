@@ -1,0 +1,16 @@
+1)	Start
+2)	Initialize session data 
+3)	Countdown time = 3 seconds
+4)	Start countdown -1
+5)	User input
+6)	Countdown time =0
+7)	Did user input before countdown time = 0
+8)	If yes go to next step if no go to 4th step
+9)	Check the user input
+10)	Rock by making a fist shape 
+11)	Paper by just keeping hand open 
+12)	Scissors by showing two fingers
+13)	If it’s a tie go to 4th step
+14)	If its not a tie decide a winner 
+15)	end
+

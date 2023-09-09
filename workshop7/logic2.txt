@@ -1,0 +1,24 @@
+Data structure used:
+    monthly_pre_select structure
+    barcode_id
+    default_Option
+    wash_option
+    car_wash
+
+
+monthly prepaid selection (monthly_pre_select)
+    Input: Empty receipt structure
+    1. Start
+    2. Detect the car near scanner and call the blackbox method for checking the barcode chip affixed on the vehicle windshield for prepaid monthly membership and store it in receipt -> default_Option.
+    3. Pull up the data from blackbox for receipt -> default_Option.
+    4. Prompt user to enter receipt -> wash_option
+    5. Store value to receipt -> wash_option
+    6. Is the wash option same as the one selected at the time of signing for the prepaid monthly membership stored in receipt -> default_Option.
+        6.1 No, go to condition when member want different wash option (logic 3) data structure
+        6.2 Yes, start the process of washing the car
+    7. Add one wash done in the counter counting washes per day
+    8. Output: updated receipt structure
+    9. Generate a receipt for the car wash done by the customer
+    10. End
+
+

@@ -1,0 +1,7 @@
+Discount calculation
+
+Start 
+Let disc = 20 (where disc = Discount for patrons)
+Make a variable to store the final amount
+Discount calculation formula: (1- disc/100) * ticket_price
+End

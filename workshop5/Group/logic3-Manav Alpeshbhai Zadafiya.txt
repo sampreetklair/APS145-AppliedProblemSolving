@@ -1,0 +1,70 @@
+noOfPerson = Enter the number of persons
+showType = Select Show Type (Musical or Theatrical)
+showTime = Select Show Time (Matinee(12-4 p.m.) and Evening(6-9 p.m.))
+ticket_charges 
+total_charge 
+discountPrice
+numOfNonAlcBev
+numOfAlcBev
+numOfCandyItem
+snack_charges
+
+PART 3:
+Calculate Discount(cal_Discnt)
+Input: empty receipt structure
+
+1.start
+
+2.Prompt user to select Show type and time
+
+3.store values to Receipt->showType, Receipt->showTime
+
+4.Determine ticket price per person:
+
+	if Receipt->showtype = musical 
+		if Receipt->showTime = matinee 
+			Receipt->ticket_charges = $70.00
+                else (Receipt->showTime = evening)
+			Receipt->ticket_charges = $150.00
+
+	else(Receipt->showtype = theatrical)
+		if Receipt->showTime = matinee 
+			Receipt->ticket_charges = $55.00
+                else (Receipt->showTime = evening)
+			Receipt->ticket_charges = $115.00
+
+5.Prompt user to enter Number of person
+
+6.store value to Receipt->noOfPerson
+
+7.Determine Receipt->ticket_charges = Receipt->ticket_charges * Receipt->noOfPerson
+	
+8.if Receipt->noOfPerson > 1 :
+
+	if Receipt->noOfPerson == 2 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.05)
+	else if Receipt->noOfPerson == 3 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.15)
+	else if Receipt->noOfPerson == 4 :
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.2)
+	else: (Receipt->noOfPerson >= 5)
+		Receipt->discountPrice = Receipt->ticket_charges - (Receipt->ticket_charges*0.3)
+
+9.Update receipt structure
+
+
+
+
+PART 4:
+calculate Snack charges(cal_snk_chrg)
+Input: receipt structure
+
+1.start
+
+2.prompt user to enter number of Non-alcoholic beverage, alcoholic beverage and candy items
+
+3.Store values in receipt->numOfNonAlcBev, receipt->numOfAlcBev, receipt->numOfCandyItem
+
+4.determine Receipt->snack_charges = (receipt->numOfNonAlcBev * 2.25) + (receipt->numOfAlcBev * 7.50) + (receipt->numOfCandyItem * 1.75)
+
+5.update receipt structure

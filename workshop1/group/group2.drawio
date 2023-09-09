@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" modified="2023-05-19T21:01:58.156Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uFKCedhdaL0yDerkLztb" version="21.3.2" type="device">
+  <diagram name="Page-1" id="wuGb_ups4tUkVt_7kjt7">
+    <mxGraphModel dx="1427" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-3" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="261" y="1409" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-4" target="cqxu2lUHYxEkTF1hgx0v-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-4" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-7" target="cqxu2lUHYxEkTF1hgx0v-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-7" value="Both players roll the die." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-11" target="cqxu2lUHYxEkTF1hgx0v-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Is there a tie/same number on the die?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="90" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="445" y="28" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-20" target="cqxu2lUHYxEkTF1hgx0v-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-20" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;The Player (First Player) with the highest number on the die makes 4 attempt and counts successfull baskets/shots made.&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="228" y="257" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-22" target="cqxu2lUHYxEkTF1hgx0v-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;The Second Player makes 4 attempt and counts successfull baskets/shots made.&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="236" y="410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-24" target="cqxu2lUHYxEkTF1hgx0v-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="602.4999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-24" target="cqxu2lUHYxEkTF1hgx0v-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-24" value="Was basketball &lt;br&gt;shootout game a tie?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="239" y="549" width="145" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-28" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="307" y="700" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-29" value="Find the difference between the score of both players to get the amount of dollars, the player with most baskets is the Winner." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="221" y="760" width="179" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311.0000000000002" y="850" as="sourcePoint" />
+            <mxPoint x="310.9999999999998" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-43" target="cqxu2lUHYxEkTF1hgx0v-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="645" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="188" y="585" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-41" target="cqxu2lUHYxEkTF1hgx0v-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-41" value="Start counting the&amp;nbsp; number of tie games. With now count being equal to 1." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="cqxu2lUHYxEkTF1hgx0v-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="645" as="sourcePoint" />
+            <mxPoint x="120" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-43" target="cqxu2lUHYxEkTF1hgx0v-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-43" value="Was this the &lt;br&gt;first tie game?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="561.5" width="120" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-45" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-47" target="cqxu2lUHYxEkTF1hgx0v-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-47" value="Increase the count of number of tie games by 1." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-52" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="572" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-53" target="cqxu2lUHYxEkTF1hgx0v-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-53" value="Reduce 50 cents per tie from the winnings amount" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-56" target="cqxu2lUHYxEkTF1hgx0v-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-58" target="cqxu2lUHYxEkTF1hgx0v-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-58" value="Give 1 dollar to the winner." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250.5" y="1309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-66" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="110" as="sourcePoint" />
+            <mxPoint x="480" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-67" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="134" as="sourcePoint" />
+            <mxPoint x="480" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-50" as="sourcePoint" />
+            <mxPoint x="370" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cqxu2lUHYxEkTF1hgx0v-56" target="cqxu2lUHYxEkTF1hgx0v-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-56" value="Is the amount negetive?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1119" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-71" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="309" y="1259" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1440" as="targetPoint" />
+            <mxPoint x="160" y="1309" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="159" y="1438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-72" value="Give final amount to the winner" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="101" y="1249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqxu2lUHYxEkTF1hgx0v-75" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="152" y="1199" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DNRwTI6V89kladQkA1Ha-1" target="cqxu2lUHYxEkTF1hgx0v-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DNRwTI6V89kladQkA1Ha-1" target="DNRwTI6V89kladQkA1Ha-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-1" value="Is the final winning amount &lt;br&gt;of dollars a decimal value." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-3" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1078" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DNRwTI6V89kladQkA1Ha-4" target="cqxu2lUHYxEkTF1hgx0v-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-4" value="Add 50 cents to the final winning amount." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DNRwTI6V89kladQkA1Ha-8" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="968" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

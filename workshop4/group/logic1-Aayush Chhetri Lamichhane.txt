@@ -1,0 +1,40 @@
+[Logic 1] Describe the revealing of the human and computer player's selected objects includingthe determination of the results (tie, winner/loser). If there is a tie, the game should be playedagain until a winner and loser can be declared at which time the game ends.
+‎
+
+(1)Start
+
+(2)Two players reveal their object choice at the same time after the countdown.
+
+(3)Store the results of human player in pl_h and  computer in pl_c.
+
+(4)(4.1)If pl_h="Rock"and pl_c="Scissors"
+	Display "pl_h wins"
+    
+   (4.2)If pl_h="Paper" and pl_c="Rock"
+	Display "pl_h wins"
+   
+   (4.3)If pl_h="Scissors" and pl_c="Paper"
+	Display "pl_h wins"
+    
+   (4.4)If pl_h="Rock" and pl_c="Paper"
+	Display "pl_c wins"
+    
+   (4.5)If pl_h="Paper" and pl_c="Scissors"
+	Display "pl_c wins"
+    
+   (4.6)If pl_h="Scissors" and pl_c="Rock"
+	Display "pl_c wins"
+
+(5) 
+   (5.1)If both players reveal Rock.
+	Display "It's a Tie! Play Again" and repeat from step (2)
+   
+   (5.2)If both players reveal Paper.
+	Display "It's a Tie! Play Again" and repeat from step (2) 
+   
+   (5.3)If both players reveal Scissors.
+	Display "It's a Tie! Play Again" and repeat from step (2)
+
+(6)Repeat step (5) untill a winner and a loser is determined. 
+
+(7)End

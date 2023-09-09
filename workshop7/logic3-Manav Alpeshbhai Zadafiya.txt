@@ -1,0 +1,31 @@
+Data Structure
+receipt structure
+default_Option = pre-selected option with monthly membership
+wash_option = user-selected option at kiosk
+num_Of_Wash = number of time member washes car in a day
+
+INPUT: receipt structure
+1.start
+2.scan barcode on vehicle
+3.barcode detected and read successfully:
+	Identify member along with contract information
+4.take User Input for Car Wash option(Basic = $5.50, Clean = $8.75, Super Clean = $12.50)
+5.store value in receipt->wash_option
+6.if receipt->wash_option == receipt->default_Option
+	if receipt->num_Of_Wash > 2:
+		a.)display message: "Daily Limit Reached" 
+		b.)Provide Wash Option with regular rates
+		c.)User select wash option  
+		d.)determine price and show payment interface to user:"NO CASH, ONLY CREDIT"
+		e.)user pay the amount
+	else:
+		move to step 7
+  else:
+	a.)determine price and show payment interface to user:"NO CASH, ONLY CREDIT"
+	b.)user pay the amount
+
+7.print and generate receipt for transaction
+8.receipt structure updated
+9.user proceed to get car washed
+10.End
+     

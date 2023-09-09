@@ -1,0 +1,42 @@
+Data structure used:
+    receipt structure
+    noOfAdults
+    noOfChildren
+    noOfSenior
+    cover_charges
+    ticket_charges
+    show_time
+    which_show
+
+calculate cover charges (cal_cvr_charge)
+    Input: Empty receipt structure
+    1. Start
+    2. Prompt user to enter noOfAdults, noOfChildren, noOfSenior
+    3. Store value to receipt -> noOfAdults, receipt -> noOfChildren, receipt -> noOfSenior
+    4. receipt -> cover_charges = (4.00 * receipt -> noOfAdults) + (0.75 * receipt -> noOfChildren) + (1.50 * receipt -> noOfSenior)
+    5. Output: updated receipt structure
+    6. End
+
+calculate ticket charges (cal_tkt_price)
+    Input: receipt structure
+    1. Start
+    2. Prompt user to enter noOfAdults, noOfChildren, noOfSenior, show_time, which_show
+    3. Store value to receipt -> noOfAdults, receipt -> noOfChildren, receipt -> noOfSenior, receipt -> show_time, receipt -> which_show
+    4. If which_show is Musical Feature,
+        4.1 If show_time is between 12pm and 4pm
+            4.1.1 receipt -> ticket_charges = (70.00 * receipt -> noOfAdults) + (70.00 * receipt -> noOfChildren) + (70.00 * receipt -> noOfSenior)
+        4.2. Else if show_time is between 6pm and 9pm
+            4.2.1 receipt -> ticket_charges = (150.00 * receipt -> noOfAdults) + (150.00 * receipt -> noOfChildren) + (150.00 * receipt -> noOfSenior)
+    5. Else if which_show is Theatre Feature,
+        5.1 If show_time is between 12pm and 4pm
+            5.1.1 receipt -> ticket_charges = (55.00 * receipt -> noOfAdults) + (55.00 * receipt -> noOfChildren) + (55.00 * receipt -> noOfSenior)
+        5.2. Else if show_time is between 6pm and 9pm
+            5.2.1 receipt -> ticket_charges = (115.00 * receipt -> noOfAdults) + (115.00 * receipt -> noOfChildren) + (115 .00 * receipt -> noOfSenior)
+    6. Output: updated receipt structure
+    7. End
+
+MAIN PROCESS
+1. Set noOfAdults, noOfChildren, noOfSenior, cover_charges, ticket_charges, show_time, which_show to Zero
+2. update receipt structure = cal_cvr_charge (Empty receipt structure)
+3. update receipt structure = cal_tkt_charge (receipt structure)
+4. Print receipt structure

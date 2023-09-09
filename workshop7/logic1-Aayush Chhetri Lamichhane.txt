@@ -1,0 +1,72 @@
+Data structures used:
+1.wash_option
+2.option_Price
+3.payment_Stat
+4.customer_Info
+
+
+1. Start the car wash process.
+
+2. Display the available wash options and their respective prices to the customer stored in variable: option_Price.
+	- Option 1: Basic $ 5.50
+   	- Option 2: Clean $ 8.75   
+   	- Option 3: Super Clean $12.50
+
+3. Prompt the customer to select a wash option.
+   	- Store the selected option in a variable: wash_option
+
+4. Validate the wash_option:
+   	- If wash_option is a valid option:
+     		- Proceed to the payment step.
+   	- Else:
+     		- Display an error message.
+     		- Go back to step 3.
+
+5. Display the selected wash option and its price to the customer.
+   	- Retrieve the price of the wash_option: option_Price
+   	- Display "You have selected [wash_option] wash option. The price is $[option_Price]."
+
+6. Prompt the customer to make the payment.
+   	- Process the payment using the credit card payment system.
+   	- Store the payment status in a variable: payment_Stat
+
+7. If payment_Stat fails:
+   	- Display an error message.
+   	- Prompt the customer with the option to retry the payment or cancel the car wash.
+     		- If customer chooses to retry:
+       			- Go back to step 6.
+     		- If customer chooses to cancel:
+       			- Display "Car wash canceled. Your payment will be refunded."
+
+8. If payment_Stat is successful:
+	-prompt the user with the option to accept the offer for prepaid monthly membership.
+	 	-If customer accepts the option
+			-store customer's information to customer_Info
+		-Else:
+			- Print out the receipt
+
+9.End the car wash process.
+
+
+Data structure used:
+    monthly_pre_select structure
+    barcode_id
+    default_Option
+    wash_option
+    car_wash
+
+
+monthly prepaid selection (monthly_pre_select)
+    Input: Empty receipt structure
+    1. Start
+    2. Detect the car near scanner and call the blackbox method for checking the barcode chip affixed on the vehicle windshield for prepaid monthly membership and store it in receipt -> default_Option.
+    3. Pull up the data from blackbox for receipt -> default_Option.
+    4. Prompt user to enter receipt -> wash_option
+    5. Store value to receipt -> wash_option
+    6. Is the wash option same as the one selected at the time of signing for the prepaid monthly membership stored in receipt -> default_Option.
+        6.1 No, go to condition when member want different wash option (logic 3) data structure
+        6.2 Yes, start the process of washing the car
+    7. Add one wash done in the counter counting washes per day
+    8. Output: updated receipt structure
+    9. Generate a receipt for the car wash done by the customer
+    10. End

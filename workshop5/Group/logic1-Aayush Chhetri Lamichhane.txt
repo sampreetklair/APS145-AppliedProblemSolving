@@ -1,0 +1,55 @@
+Data Structure Used:
+1.receipt structure
+2.showTime
+3.tier_type
+4.istip(True/False)
+5.tip_amt
+5.valparking_charge
+6.cover_charges
+7.ticket_charges
+8.snack_charges
+9.discount
+10.valparking_charge
+11.total_charge
+12.taxes
+13.cover_charges
+14.ticket_charges
+15.snack_charges
+16.discount
+17.taxes
+
+Calculate Valet Parking Charges(cal_val_price):
+Input:Empty receipt structure
+1.Start
+2.prompt user to enter Receipt->showTime,Receipt->tier_type
+3.store values to Receipt->showTime,Receipt->tier_type
+4.Prompt user to enter if they want to provide tip
+5.store value to Receipt->istip(True/False)
+6.If ans is true
+	a)set Receipt->istip(True/False) to True
+	b)store the value to Receipt->tip_amt
+8.If Receipt->showTime is Matinée and Receipt->tier_type is Standard
+	a)Reciept ->valparking_charge= $10.00
+9.If Receipt->showTime is Matinée and Receipt->tier_type is VIP
+	a)Reciept ->valparking_charge= $15.00
+10.If Receipt->showTime is Evening and Receipt->tier_type is Standard
+	a)Reciept ->valparking_charge= $20.00
+11.If Receipt->showTime is Evening and Receipt->tier_type is VIP
+	a)Reciept ->valparking_charge= $30.00
+12.If Receipt->istip true?
+	a)Reciept ->valparking_charge=Reciept ->valparking_charge + Receipt->tip_amt
+13.Output: updated receipt structure
+
+
+Display All Charges in mobile receipt(mob_receipt):
+Input: Receipt structure
+1.Start
+2.Reciept ->ticket_charges = (Reciept ->cover_charges) + (Reciept ->ticket_charges) + 	(Reciept ->snack_charges) + (Reciept ->valparking_charge) - (Reciept ->discount) 	+(Reciept ->taxes)
+3.Output: updated receipt structure
+
+MAIN PROCESS
+1.Start
+2.set Receipt->istip to false
+3.update Receipt structure=cal_val_price(Empty Receipt structure)
+4.update Receipt structure=mob_receipt(Receipt structure)
+5.print Receipt structure

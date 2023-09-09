@@ -1,0 +1,8 @@
+(1) Start
+(2) Make three variable and store three numbers (1, 2 and 3) in them.
+(3) Map/Assign each variable to one object (Rock, Paper or Scissors).
+(4) Set a counter for 3 seconds and start counting till 3.
+(5) While counting make/show an animation involving moving two fists up and down synchronously with the timer.
+(6) Use the random function to randomly select one of the three variables.
+(7) Store the output in a variable without displaying it as the output on the screen to the user.
+(8) End
